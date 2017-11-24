@@ -1,0 +1,96 @@
+/* Global styles */
+
+/* Open Sans, by Steve Matteson - https://fonts.google.com/specimen/Open+Sans */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Font Awesome, by Dave Gandy - http://fontawesome.io */
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetiva', 'Arial', sans-serif;
+  margin-top: 70px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.bg-light {
+  opacity: 0.95;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  color: #868e96!important;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  font-size: 85%;
+  text-align: center;
+  background-color: #f7f7f7;
+  background-color: #fff;
+}
+
+.footer a {
+  font-weight: bold;
+  color: #55595c;
+}
+
+.footer a:hover {
+  color: #0275d8;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .display-3 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .footer {
+    text-align: left;
+  }
+}
+
+.footer-links {
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.footer-links li {
+  display: inline-block;
+}
+
+.footer-links li + li {
+  margin-left: 1rem;
+}
+
+.rounded-circle {
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  font-weight: bold;
+}

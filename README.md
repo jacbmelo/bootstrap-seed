@@ -1,8 +1,24 @@
-# bootstrap-seed
+# Bootstrap Seed
 
-Bootstrap + Font Awesome seed.
+This is a simple page using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
+
+Start by cloning using:
+
+```sh
+    git clone https://github.com/jacbmelo/bootstrap-seed.git
+```
+
+Install dependencies:
+
+```sh
+    npm install
+```
+
+To start run:
+
+```sh
+    npm run start
+```
 
 ---
-By [jacbmelo](https://github.com/jacbmelo).
-
-Licensed [MIT](LICENSE).
+By [jacbmelo](http://jacbmelo.github.io). Licenced [MIT](LICENE).

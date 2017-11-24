@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-seed",
+  "version": "1.0.0",
+  "description": "Bootstrap Seed",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacbmelo/bootstrap-seed.git"
+  },
+  "keywords": [
+    "site",
+    "html5",
+    "pages"
+  ],
+  "author": "João Melo",
+  "license": "MIT",
+  "homepage": "https://github.com/jacbmelo/bootstrap-seed/",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 9000 -o"
+  }
+}
