@@ -1,6 +1,6 @@
 # Bootstrap Seed
 
-This is a simple page using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
+A template website using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
 
 Start by cloning using:
 
