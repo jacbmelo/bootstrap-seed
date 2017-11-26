@@ -1,6 +1,6 @@
 # Bootstrap Seed
 
-A template website using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
+A template website using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/). [Node](https://nodejs.org/) is used to test locally.
 
 Start by cloning using:
 
