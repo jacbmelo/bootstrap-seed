@@ -1,8 +1,10 @@
 # Bootstrap Seed
 
-This is a simple page using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
+**This is a simple HTML5 template built using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).**
 
-Start by cloning using:
+You can see it in action at https://jacbmelo.github.io/bootstrap-seed/.
+
+To use this template start by cloning [bootstrap-seed](https://github.com/jacbmelo/bootstrap-seed) using:
 
 ```sh
     git clone https://github.com/jacbmelo/bootstrap-seed.git
