@@ -2,8 +2,8 @@
 
 $(function() {
     
-    $('header').load('_header.html');
-    $('footer').load('_footer.html');
+    $('header').load('header.html');
+    $('footer').load('footer.html');
 
     /*
     // Load data from a json file
