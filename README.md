@@ -4,10 +4,12 @@
 
 You can see it in action at https://jacbmelo.github.io/bootstrap-seed/.
 
-To use this template start by cloning [bootstrap-seed](https://github.com/jacbmelo/bootstrap-seed) using:
+To use this template start by forking this project into your own repo. See how to [Fork A Repo](https://help.github.com/articles/fork-a-repo/) and how you can [keep it synced with the original repo](https://help.github.com/articles/fork-a-repo/#keep-your-fork-synced). After forking you can change your repo name to whatever you want.
+
+Clone your repo using:
 
 ```sh
-    git clone https://github.com/jacbmelo/bootstrap-seed.git
+    git clone https://github.com/your-github-username/bootstrap-seed.git
 ```
 
 Install dependencies:
@@ -16,7 +18,7 @@ Install dependencies:
     npm install
 ```
 
-To start run:
+To start on localhost run:
 
 ```sh
     npm run start
