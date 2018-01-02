@@ -12,7 +12,10 @@
 
     <!-- Font Awesome 5 - https://fontawesome.com/ -->
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-    
+
+    <!-- Vue.js -->
+    <script src="https://unpkg.com/vue"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -22,28 +25,31 @@
     <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
 
-    <header class="header"><!-- header.html will be inserted here when page is loaded --></header>
+    <div id="app">
+      <header-component></header-component>
 
-    <div class="container">
+      <div class="container">
 
-      <!-- >>>>> REPLACE WITH YOUR CONTENT >>>>> -->
+        <!-- >>>>> REPLACE WITH YOUR CONTENT >>>>> -->
 
-      <div class="jumbotron">
-        <i class="fab fa-html5 fa-10x html5-color"></i>
-        <h1 class="display-1">Hello!</h1>
-        <p class="lead">
-          This is a simple HTML5 template built using
-          <a href="http://getbootstrap.com/" rel="nofollow">Bootstrap 4</a> and
-          <a href="http://fontawesome.com/" rel="nofollow">Font Awesome 5</a>.
-        </p>
-        <a href="about.html" class="btn btn-outline-dark btn-lg">About</a>
+        <div class="jumbotron">
+          <i class="fab fa-html5 fa-10x html5-color"></i>
+          <h1 class="display-1">{{ message }}</h1>
+          <p class="lead">
+            This is a simple HTML5 template built using
+            <a href="https://getbootstrap.com/" rel="nofollow">Bootstrap 4</a>,
+            <a href="https://fontawesome.com/" rel="nofollow">Font Awesome 5</a> and
+            <a href="https://vuejs.org/" rel="nofollow">Vue.js</a>.
+          </p>
+          <a href="about.html" class="btn btn-outline-dark btn-lg">About</a>
+        </div>
+
+        <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
       </div>
 
-      <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
+      <footer-component></footer-component>
     </div>
-
-    <footer class="footer"><!-- footer.html will be inserted here when page is loaded --></footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -51,6 +57,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
+    <script src="header-component.js"></script>
+    <script src="footer-component.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
