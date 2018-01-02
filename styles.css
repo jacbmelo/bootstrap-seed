@@ -94,3 +94,11 @@ body {
 .display-1, .display-2, .display-3, .display-4 {
   font-weight: bold;
 }
+
+html5-color {
+ color: #e34f26; /* html5 brand color - https://brandcolors.net/ */
+}
+
+html5-background-color {
+ background-color: #e34f26; /* html5 brand color - https://brandcolors.net/ */
+}
