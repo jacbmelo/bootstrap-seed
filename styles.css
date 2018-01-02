@@ -100,5 +100,13 @@ body {
 }
 
 .html5-background-color {
- background-color: #e34f26; /* html5 brand color - https://brandcolors.net/ */
+ background-color: #e34f26; /* html5 brand color - https://brandcolovuers.net/ */
 }
+
+.vuejs-color {
+  color: #35495e;
+}
+
+.vuejs-background-color {
+  background-color: #35495e;
+ }
