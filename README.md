@@ -1,6 +1,6 @@
 # Bootstrap Seed
 
-**This is a simple HTML5 template built using [bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/). [Node](https://nodejs.org/) is used to run and test locally.**
+**This is a simple HTML5 template built using [bootstrap 4](https://getbootstrap.com/), [Font Awesome 5](https://fontawesome.com/) and [Vue.js](https://vuejs.org/). [Node](https://nodejs.org/) is used to run and test locally.**
 
 You can see it in action [here](https://jacbmelo.github.io/bootstrap-seed/).
 

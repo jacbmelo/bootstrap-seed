@@ -1,10 +1,6 @@
-/* Global styles */
 
 /* Open Sans, by Steve Matteson - https://fonts.google.com/specimen/Open+Sans */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-
-/* Font Awesome, by Dave Gandy - http://fontawesome.io */
-@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetiva', 'Arial', sans-serif;
@@ -56,11 +52,6 @@ body {
   margin-bottom: 0;
 }
 
-@media (max-width: 576px) {
-  .display-3 {
-    font-size: 3.5rem;
-  }
-}
 @media (min-width: 576px) {
   .footer {
     text-align: left;
@@ -102,11 +93,3 @@ body {
 .html5-background-color {
  background-color: #e34f26; /* html5 brand color - https://brandcolovuers.net/ */
 }
-
-.vuejs-color {
-  color: #35495e;
-}
-
-.vuejs-background-color {
-  background-color: #35495e;
- }
