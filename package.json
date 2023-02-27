@@ -16,7 +16,7 @@
   "license": "MIT",
   "homepage": "https://github.com/jacbmelo/bootstrap-seed/",
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^14.1.1"
   },
   "scripts": {
     "prestart": "npm install",
